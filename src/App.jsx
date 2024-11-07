@@ -40,7 +40,7 @@ function App() {
         <input
           type="text"
           placeholder="Enter GitHub username"
-          className="border p-2 rounded mr-2"
+          className="border p-2 rounded mr-2 text-black"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
