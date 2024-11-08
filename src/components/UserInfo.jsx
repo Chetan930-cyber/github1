@@ -24,8 +24,8 @@ function UserInfo({ userInfo }) {
         <h2 className="text-2xl font-bold">{userInfo.name}</h2>
         
         
-        <div className="flex space-x-4 mt-4 mx-[200px]">
-          <div id="repos" className="bg-white dark:bg-gray-700 rounded-lg p-4 shadow-md hover:border-[5px] hover:border-orange-500">
+        <div className="flex lg:flex-row space-x-4 mt-4 mx-[200px] flex-col items-center gap-4">
+          <div id="repos" className="bg-white dark:bg-gray-700 relative left-2 rounded-lg p-4 shadow-md hover:border-[5px] hover:border-orange-500">
             <h3 className="rounded-lg   shadow-md text-black font-semibold ">Repositories</h3>
             <p className='text-black font-semibold text-center'>{userInfo.public_repos}</p>
           </div>
@@ -65,7 +65,7 @@ function UserInfo({ userInfo }) {
 
 
   {userInfo.created_at && (
-  <p className="text-end relative left-[120px] top-5 lg:relative lg:left-[670px]">
+  <p className="text-end relative font-bold text-red-500 left-[120px] top-5 lg:relative lg:left-[670px]">
     Joined On
     <hr />
     {new Date(userInfo.created_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
