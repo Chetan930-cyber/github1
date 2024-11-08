@@ -40,7 +40,7 @@ function RepositoryList() {
             ) : (
               <p
                 id="p1"
-                className=" text-violet-500 mx-[200px]
+                className=" text-violet-500 text-center lg:relative lg:left-[370px]
                font-bold text-[17px]"
               >
                 No repositories available.

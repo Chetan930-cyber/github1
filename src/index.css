@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 
 
@@ -15,10 +12,7 @@
   color: #f7fafc;
 }
 
-#p1{
-  position: relative;
-  left: 450px;
-}
+
 #font1{
   font-family: "Rubik", sans-serif;
 }
