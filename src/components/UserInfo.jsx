@@ -85,8 +85,8 @@ function UserInfo({ userInfo }) {
         <div className="flex items-center justify-center p-4 rounded-lg">
      
           <span id="text1" className={`${darkMode ? 'text-red-600 font-bold flex items-center space-x-2' : 'text-pink-600 font-bold flex items-center space-x-2'} `}>
-            <i id="location" className="fa-solid fa-location-dot text-[25px]"></i>
-            <p id="location2" className="text-[25px]">(Location: {userInfo.location || 'Not provided'})</p>
+            <i id="location" className="fa-solid fa-location-dot text-[20px] lg:text-[25px]"></i>
+            <p id="location2" className="text-[20px] lg:text-[25px]">(Location: {userInfo.location || 'Not provided'})</p>
           </span>
         </div>
       </div>
